@@ -29,3 +29,13 @@ en:
     # prompts:
     #   defaults:
     #     age: 'Select your age'
+    # config/locales/simple_form.en.yml
+en:
+  simple_form:
+    required:
+      text: 'required'
+      mark: '*'
+      # This will overwrite required text and mark for all simple forms.
+      # When using html, text and mark won't be used.
+      # Comment out the line below to return to default settings.
+      html: ''
